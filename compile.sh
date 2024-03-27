@@ -1,0 +1,1 @@
+g++ -std=c++20 -O3 -flto -s main.cpp -o discord_bot -static-libgcc -static-libstdc++ -L/home/rail/discordbot/libs -lcpr -lcrypto -lcurl -lssl -lz -ldpp -lSQLiteCpp -lsqlite3
